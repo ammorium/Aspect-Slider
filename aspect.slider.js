@@ -1,4 +1,4 @@
-jQuery(function ($) {
+(function ($) {
     if (!String.prototype.format) {
         String.prototype.format = function () {
             var args = arguments;
@@ -80,4 +80,4 @@ jQuery(function ($) {
         if(setting.play.auto)
             autoPlay();
     };
-});
+}(jQuery));
